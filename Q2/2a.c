@@ -147,6 +147,7 @@ void addNode(int n)
 //     }
 // }
 
+
 // DRIVER CODE
 void main()
 {
@@ -160,6 +161,8 @@ void main()
         scanf("%i", &data);
         createNode(data);
     }
+
+
     printf("Your sorted list is: \t");
     display(length);
     printf("\n Enter the new element you want to add");
