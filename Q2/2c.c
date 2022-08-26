@@ -1,73 +1,70 @@
-#include <stdio.h>  
-#include <stdlib.h>  
-   
-//Represent a node of the doubly linked list  
-  
-struct node{  
-    int data;  
-    struct node *previous;  
-    struct node *next;  
-};      
-   
-//Represent the head and tail of the doubly linked list  
-struct node *head, *tail = NULL;  
-   
-//addNode() will add a node to the list  
-void addNode(int data) {  
-    //Create a new node  
-    struct node *newNode = (struct node*)malloc(sizeof(struct node));  
-    newNode->data = data;  
-      
-    //If list is empty  
-    if(head == NULL) {  
-        //Both head and tail will point to newNode  
-        head = tail = newNode;  
-        //head's previous will point to NULL  
-        head->previous = NULL;  
-        //tail's next will point to NULL, as it is the last node of the list  
-        tail->next = NULL;  
-    }  
-    else {  
-        //newNode will be added after tail such that tail's next will point to newNode  
-        tail->next = newNode;  
-        //newNode's previous will point to tail  
-        newNode->previous = tail;  
-        //newNode will become new tail  
-        tail = newNode;  
-        //As it is last node, tail's next will point to NULL  
-        tail->next = NULL;  
-    }  
-}  
-   
-//display() will print out the nodes of the list  
-void display() {  
-    //Node current will point to head  
-    struct node *current = head;  
-    if(head == NULL) {  
-        printf("List is empty\n");  
-        return;  
-    }  
-    printf("Nodes of doubly linked list: \n");  
-    while(current != NULL) {  
-        //Prints each node by incrementing pointer.  
-        printf("%d ", current->data);  
-        current = current->next;  
-    }  
-}  
-   
-int main()  
-{  
-    //Add nodes to the list  
-    addNode(1);  
-    addNode(2);  
-    addNode(3);  
-    addNode(4);  
-    addNode(5);  
-      
-    //Displays the nodes present in the list  
-    display();  
+#include <stdio.h>
+#include <stdlib.h>
 
-    printf(" \n %i \n", tail->data);
-   
-    return 0;  
-    } 
+// Represent a node of the doubly linked list
+
+struct Node
+{
+    int data;
+    struct Node *previous;
+    struct Node *next;
+};
+
+struct Node *present = NULL;
+struct Node *head = NULL;
+struct Node *tail = NULL;
+struct Node *newPointer = NULL;
+int length = 0;
+
+void createNodes(int n)
+{
+    newPointer = (struct Node *)malloc(sizeof(struct Node));
+    newPointer->data = n;
+    newPointer->next = NULL;
+    newPointer->previous = NULL;
+    if (length == 0)
+    {
+
+        // CREATING FIRST ELEMENT FOR DOUBLY LINKED LIST
+
+        head = newPointer;
+        tail = newPointer;
+        newPointer->next = newPointer;
+        newPointer->previous = newPointer;
+        length++;
+    }
+    // ADDING ELEMENT TO YOUR LINKED LIST
+    else
+    {
+        tail->next = newPointer;
+        newPointer->previous = tail;
+        tail = newPointer;
+        newPointer->next = head;
+        tail = newPointer;
+        head->previous = tail;
+
+        length++;
+        // present->next = newPointer;
+        // newPointer->previous = present;
+        // newPointer->next = NULL;
+        // tail = newPointer;
+        // present = tail;
+        ;
+    }
+}
+
+int main()
+{
+    // Add nodes to the list
+    createNodes(1);
+    createNodes(2);
+    createNodes(3);
+    createNodes(4);
+    createNodes(5);
+
+    // Displays the last node present in the list
+
+    printf("%i", head->previous->data);
+
+    return 0;
+}
