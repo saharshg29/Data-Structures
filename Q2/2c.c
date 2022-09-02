@@ -55,12 +55,14 @@ void createNodes(int n)
 
 int main()
 {
+    int n, a;
+    scanf("%i", &n);
     // Add nodes to the list
-    createNodes(1);
-    createNodes(2);
-    createNodes(3);
-    createNodes(4);
-    createNodes(5);
+    while (n--)
+    {
+        scanf("%i", &a);
+        createNodes(a);
+    };
 
     // Displays the last node present in the list
 
