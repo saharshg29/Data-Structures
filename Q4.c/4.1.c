@@ -1,50 +1,102 @@
 #include <stdio.h>
+#include <stdlib.h>
+#define size 5
 
-int queue[100], head, tail, length = -1, n;
-
-void enqueue(int item)
+struct queue
 {
-    int temp;
-    queue[n + 1];
-    queue[n] = item;
-    length++;
-}
+    int front, rear;
+    int data[size];
+};
 
-int dequeue()
+typedef struct queue QUEUE;
+
+void enqueue(QUEUE *q, int item)
 {
-    int removed = queue[0];
-    for (int i = 0; i < length; i++)
+    if (q->rear == size - 1)
+        printf("Queue is full \n");
+    else
     {
-        queue[i] = queue[i + 1];
-        if (i == length - 1)
+        q->rear += 1;
+        q->data[q->rear] = item;
+        if (q->front == -1)
         {
-            break;
+            q->front++;
         }
     }
-    queue[n - 1];
-    length--;
-    printf("%i\n", removed);
-    return removed;
+}
+
+void dequeue(QUEUE *q)
+{
+    int del;
+    if (q->front == -1)
+    {
+        printf("Empty Queue \n");
+    }
+    else
+    {
+        del = q->data[q->front];
+        printf("Deleted Element %i \n", del);
+        if (q->front == q->rear)
+        {
+            q->front = -1;
+            q->rear = -1;
+        }
+        q->front++;
+    }
+}
+
+void display(QUEUE q)
+{
+    if (q.front == -1)
+    {
+        printf("Empty Queue \n");
+    }
+    else
+    {
+        printf("Queue elements are \t");
+        for (int i = q.front; i <= q.rear; i++)
+        {
+            printf("%i \n", q.data[i]);
+        }
+    }
 }
 
 void main()
 {
+    int newSize;
+    int choice;
+    int item;
+    scanf("%i", &newSize);
+    QUEUE q;
+    q.data[newSize];
+    q.front = -1;
+    q.rear = -1;
 
-    int newItem;
-    scanf("%i", &n);
-    queue[n];
-    for (int i = 0; i < n; i++)
+    for (;;)
     {
-        scanf("%i", &queue[i]);
-        length++;
+        printf("1) Enqueue \n");
+        printf("2) Dequeue \n");
+        printf("3) Display \n");
+        printf("4) Exit \n");
+        printf("Enter choice ");
+        scanf("%i", &choice);
+        switch (choice)
+        {
+        case 1:
+            printf("Enter new Element");
+            scanf("%i", &item);
+            enqueue(&q, item);
+            break;
+        case 2:
+            dequeue(&q);
+            break;
+        case 3:
+            display(q);
+            break;
+        default:
+            exit(0);
+        }
     }
-    printf("Enter new item for your queue");
-    scanf("%i", &newItem);
-    enqueue(newItem);
-    dequeue();
 
-    for (int i = 0; i <= length; i++)
-    {
-        printf("%i ", queue[i]);
-    }
+   
 }
