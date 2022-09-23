@@ -1,0 +1,184 @@
+<g id="shape-ba2303a0-3758-11ed-8cef-e95b14186f9c">
+  <defs>
+    <clipPath id="frame-clip-ba2303a0-3758-11ed-8cef-e95b14186f9c-e796e410-3a4a-11ed-81d7-4f5834017f73" class="frame-clip">
+      <rect rx="0" ry="0" x="0" y="0" width="360" height="640" transform="matrix(1,0,0,1,0,0)" style="fill: rgb(0, 0, 0); fill-opacity: 1;">
+      </rect>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#frame-clip-ba2303a0-3758-11ed-8cef-e95b14186f9c-e796e410-3a4a-11ed-81d7-4f5834017f73)">
+    <clipPath id="frame-clip-ba2303a0-3758-11ed-8cef-e95b14186f9c-e796e410-3a4a-11ed-81d7-4f5834017f73" class="frame-clip">
+      <rect rx="0" ry="0" x="0" y="0" width="360" height="640" transform="matrix(1,0,0,1,0,0)" style="fill: rgb(0, 0, 0); fill-opacity: 1;">
+      </rect>
+    </clipPath>
+    <g id="fills-ba2303a0-3758-11ed-8cef-e95b14186f9c">
+      <rect rx="0" ry="0" x="0" y="0" transform="matrix(1,0,0,1,0,0)" width="360" height="640" class="frame-background" style="fill: rgb(0, 0, 0); fill-opacity: 1;">
+      </rect>
+    </g>
+    <g class="frame-children">
+      <g id="shape-da6204e0-3758-11ed-8cef-e95b14186f9c">
+        <defs>
+          <pattern patternUnits="userSpaceOnUse" x="3.0000012634817494" y="0.000002608961601424653" height="53.99999714873218" width="176.9999959442004" data-loading="false" id="fill-0-e7970b20-3a4a-11ed-81d7-4f5834017f73">
+            <g>
+              <rect width="176.9999959442004" height="53.99999714873218" style="fill: rgb(255, 255, 255); fill-opacity: 1;">
+              </rect>
+            </g>
+          </pattern>
+        </defs>
+        <g transform="matrix(1,0,0,1,0,0)" class="text-container" x="3.0000012634817494" y="0.000002608961601424653" width="176.9999959442004" height="53.99999714873218" rx="0" ry="0">
+          <g id="fills-da6204e0-3758-11ed-8cef-e95b14186f9c">
+            <text x="30.41666729436554" y="4.750002608961601" dominant-baseline="text-before-edge" style="text-transform: capitalize; font-family: &quot;Yeon Sung&quot;; letter-spacing: 3.8px; font-style: normal; font-weight: 400; white-space: pre; font-size: 43px; text-decoration: underline solid rgb(255, 255, 255); direction: ltr; fill: rgb(255, 255, 255); fill-opacity: 1;">Maitri</text>
+          </g>
+          <g id="strokes-da6204e0-3758-11ed-8cef-e95b14186f9c">
+            <g class="stroke-shape">
+              <text x="30.41666729436554" y="4.750002608961601" dominant-baseline="text-before-edge" style="text-transform: capitalize; font-family: &quot;Yeon Sung&quot;; letter-spacing: 3.8px; font-style: normal; font-weight: 400; white-space: pre; font-size: 43px; text-decoration: underline solid rgb(255, 255, 255); direction: ltr; fill: none; stroke-width: 2; stroke: rgb(224, 0, 0); stroke-opacity: 0.86;">Maitri</text>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="shape-da81a560-3759-11ed-b5ae-5ddc3b3177fd" rx="0" ry="0" style="opacity: 0.9;">
+        <g id="shape-f22c9090-3758-11ed-8cef-e95b14186f9c">
+          <defs>
+            <filter id="filter_e797f580-3a4a-11ed-81d7-4f5834017f73" x="-0.7712480140463969" y="-0.5073325806683939" width="2.5424960280927937" height="2.0146651613367883" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix">
+              </feFlood>
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
+              </feBlend>
+              <feGaussianBlur stdDeviation="76" result="filter_77910ab1-3757-11ed-8cef-e95b14186f9c">
+              </feGaussianBlur>
+            </filter>
+            <filter id="filter_blur_e797f580-3a4a-11ed-81d7-4f5834017f73" x="-0.7712480140463969" y="-0.5073325806683939" width="2.5424960280927937" height="2.0146651613367883" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+              <feFlood flood-opacity="0" result="BackgroundImageFix">
+              </feFlood>
+              <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape">
+              </feBlend>
+              <feGaussianBlur stdDeviation="76" result="filter_77910ab1-3757-11ed-8cef-e95b14186f9c">
+              </feGaussianBlur>
+            </filter>
+          </defs>
+          <g id="fills-f22c9090-3758-11ed-8cef-e95b14186f9c">
+            <rect rx="0" ry="0" x="81.0000003582482" y="170.00000021174074" transform="matrix(1,0,0,1,0,0)" width="197.99999999999997" height="300.99999999999994" filter="url(#filter_e797f580-3a4a-11ed-81d7-4f5834017f73)" style="fill: rgb(177, 178, 181); fill-opacity: 1;">
+            </rect>
+          </g>
+          <g id="strokes-f22c9090-3758-11ed-8cef-e95b14186f9c" filter="url(#filter_blur_e797f580-3a4a-11ed-81d7-4f5834017f73)">
+            <g class="stroke-shape">
+              <rect rx="0" ry="0" x="81.0000003582482" y="170.00000021174074" transform="matrix(1,0,0,1,0,0)" width="197.99999999999997" height="300.99999999999994" style="fill: none; stroke-width: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;">
+              </rect>
+            </g>
+          </g>
+        </g>
+        <g id="shape-cb891890-3759-11ed-b5ae-5ddc3b3177fd" rx="0" ry="0">
+          <g id="shape-e3e63cc0-3758-11ed-8cef-e95b14186f9c" style="mix-blend-mode: color-burn;">
+            <g id="fills-e3e63cc0-3758-11ed-8cef-e95b14186f9c">
+              <path d="M131.00000000000006,178 h97.99999999999997 a50,50 0 0 1 50,50 v245.9999999999999 a50,50 0 0 1 -50,50 h-97.99999999999997 a50,50 0 0 1 -50,-50 v-245.9999999999999 a50,50 0 0 1 50,-50 z" x="81.00000000000006" y="178" transform="matrix(1,0,0,1,0,0)" width="197.99999999999997" height="345.9999999999999" style="fill: rgb(0, 0, 0); fill-opacity: 1;">
+              </path>
+            </g>
+          </g>
+        </g>
+        <g id="shape-24aae530-3759-11ed-8cef-e95b14186f9c">
+          <g id="fills-24aae530-3759-11ed-8cef-e95b14186f9c">
+            <path d="M168.49999999579552,427.0000000105367 h64.00000000840902 a21.499999989463277,21.499999989463277 0 0 1 21.499999989463277,21.499999989463277 v0 a21.499999989463277,21.499999989463277 0 0 1 -21.499999989463277,21.499999989463277 h-64.00000000840902 a21.499999989463277,21.499999989463277 0 0 1 -21.499999989463277,-21.499999989463277 v0 a21.499999989463277,21.499999989463277 0 0 1 21.499999989463277,-21.499999989463277 z" x="147.00000000633224" y="427.0000000105367" transform="matrix(1,0,0,1,0,0)" width="106.99999998733557" height="42.99999997892655" style="fill: rgb(177, 178, 181); fill-opacity: 1;">
+            </path>
+          </g>
+        </g>
+        <g id="shape-3d109f70-3759-11ed-b5ae-5ddc3b3177fd" style="mix-blend-mode: hard-light;">
+          <defs>
+            <pattern patternUnits="userSpaceOnUse" x="147.00000007715244" y="422.00000032037497" height="51.99999935925007" width="105.9999998456951" data-loading="false" id="fill-0-e79906f0-3a4a-11ed-81d7-4f5834017f73">
+              <g>
+                <rect width="105.9999998456951" height="51.99999935925007" style="fill: rgb(0, 0, 0); fill-opacity: 1;">
+                </rect>
+              </g>
+            </pattern>
+          </defs>
+          <g transform="matrix(1,0,0,1,0,0)" class="text-container" x="147.00000007715244" y="422.00000032037497" width="105.9999998456951" height="51.99999935925007" rx="0" ry="0">
+            <g id="fills-3d109f70-3759-11ed-b5ae-5ddc3b3177fd">
+              <text x="159.3194447335245" y="435.25000032037497" dominant-baseline="text-before-edge" style="text-transform: none; font-family: &quot;Sofadi One&quot;; letter-spacing: normal; font-style: normal; font-weight: 400; white-space: pre; font-size: 22px; text-decoration: none solid rgb(0, 0, 0); direction: ltr; fill: rgb(0, 0, 0); fill-opacity: 1;">Sign up</text>
+            </g>
+            <g id="strokes-3d109f70-3759-11ed-b5ae-5ddc3b3177fd">
+              <g class="stroke-shape">
+                <text x="159.3194447335245" y="435.25000032037497" dominant-baseline="text-before-edge" style="text-transform: none; font-family: &quot;Sofadi One&quot;; letter-spacing: normal; font-style: normal; font-weight: 400; white-space: pre; font-size: 22px; text-decoration: none solid rgb(0, 0, 0); direction: ltr; fill: none; stroke-width: 1; stroke: rgb(255, 255, 255); stroke-opacity: 1;">Sign up</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="shape-15e8aaa0-3759-11ed-8cef-e95b14186f9c">
+          <g id="fills-15e8aaa0-3759-11ed-8cef-e95b14186f9c">
+            <path rx="0" ry="0" d="M107,385.5C107,373.634,116.634,364,128.5,364L144.547,364L232.5,364C244.366,364,254,373.634,254,385.5L254,385.5C254,397.366,244.366,407,232.5,407L128.5,407C116.634,407,107,397.366,107,385.5ZL107,385.5Z" style="fill: rgb(177, 178, 181); fill-opacity: 1;">
+            </path>
+          </g>
+        </g>
+        <g id="shape-8004f920-3759-11ed-b5ae-5ddc3b3177fd">
+          <defs>
+            <pattern patternUnits="userSpaceOnUse" x="119.00000015282711" y="361.00000071972613" height="47.99999513328123" width="124.9999998793216" data-loading="false" id="fill-0-e799ca40-3a4a-11ed-81d7-4f5834017f73">
+              <g>
+                <rect width="124.9999998793216" height="47.99999513328123" style="fill: rgb(0, 0, 0); fill-opacity: 1;">
+                </rect>
+              </g>
+            </pattern>
+          </defs>
+          <g transform="matrix(1,0,0,1,0,0)" class="text-container" x="119.00000015282711" y="361.00000071972613" width="124.9999998793216" height="47.99999513328123" rx="0" ry="0">
+            <g id="fills-8004f920-3759-11ed-b5ae-5ddc3b3177fd">
+              <text x="119.00000015282711" y="379.87500071972613" dominant-baseline="text-before-edge" style="text-transform: capitalize; font-family: &quot;Yeon Sung&quot;; letter-spacing: 3.8px; font-style: normal; font-weight: 400; white-space: pre; font-size: 10px; text-decoration: none solid rgb(0, 0, 0); direction: ltr; fill: rgb(0, 0, 0); fill-opacity: 1;">ConfirmPassword</text>
+            </g>
+            <g id="strokes-8004f920-3759-11ed-b5ae-5ddc3b3177fd">
+              <g class="stroke-shape">
+                <text x="119.00000015282711" y="379.87500071972613" dominant-baseline="text-before-edge" style="text-transform: capitalize; font-family: &quot;Yeon Sung&quot;; letter-spacing: 3.8px; font-style: normal; font-weight: 400; white-space: pre; font-size: 10px; text-decoration: none solid rgb(0, 0, 0); direction: ltr; fill: none; stroke-width: 1; stroke: rgb(0, 0, 0); stroke-opacity: 0.14;">ConfirmPassword</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="shape-164374d0-3759-11ed-8cef-e95b14186f9c">
+          <g id="fills-164374d0-3759-11ed-8cef-e95b14186f9c">
+            <path rx="0" ry="0" d="M107,321.5C107,309.634,116.634,300,128.5,300L144.547,300L232.5,300C244.366,300,254,309.634,254,321.5L254,321.5C254,333.366,244.366,343,232.5,343L128.5,343C116.634,343,107,333.366,107,321.5ZL107,321.5Z" style="fill: rgb(177, 178, 181); fill-opacity: 1;">
+            </path>
+          </g>
+        </g>
+        <g id="shape-7b3e7060-3759-11ed-b5ae-5ddc3b3177fd">
+          <defs>
+            <pattern patternUnits="userSpaceOnUse" x="121.00000015282711" y="297.00000071972613" height="47.99999513328123" width="124.9999998793216" data-loading="false" id="fill-0-e79a6680-3a4a-11ed-81d7-4f5834017f73">
+              <g>
+                <rect width="124.9999998793216" height="47.99999513328123" style="fill: rgb(0, 0, 0); fill-opacity: 1;">
+                </rect>
+              </g>
+            </pattern>
+          </defs>
+          <g transform="matrix(1,0,0,1,0,0)" class="text-container" x="121.00000015282711" y="297.00000071972613" width="124.9999998793216" height="47.99999513328123" rx="0" ry="0">
+            <g id="fills-7b3e7060-3759-11ed-b5ae-5ddc3b3177fd">
+              <text x="121.00000015282711" y="315.87500071972613" dominant-baseline="text-before-edge" style="text-transform: capitalize; font-family: &quot;Yeon Sung&quot;; letter-spacing: 3.8px; font-style: normal; font-weight: 400; white-space: pre; font-size: 10px; text-decoration: none solid rgb(0, 0, 0); direction: ltr; fill: rgb(0, 0, 0); fill-opacity: 1;">Password</text>
+            </g>
+            <g id="strokes-7b3e7060-3759-11ed-b5ae-5ddc3b3177fd">
+              <g class="stroke-shape">
+                <text x="121.00000015282711" y="315.87500071972613" dominant-baseline="text-before-edge" style="text-transform: capitalize; font-family: &quot;Yeon Sung&quot;; letter-spacing: 3.8px; font-style: normal; font-weight: 400; white-space: pre; font-size: 10px; text-decoration: none solid rgb(0, 0, 0); direction: ltr; fill: none; stroke-width: 1; stroke: rgb(0, 0, 0); stroke-opacity: 0.14;">Password</text>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="shape-02b38590-3759-11ed-8cef-e95b14186f9c">
+          <g id="fills-02b38590-3759-11ed-8cef-e95b14186f9c">
+            <path d="M127.5,237 h104 a21.5,21.5 0 0 1 21.5,21.5 v0 a21.5,21.5 0 0 1 -21.5,21.5 h-104 a21.5,21.5 0 0 1 -21.5,-21.5 v0 a21.5,21.5 0 0 1 21.5,-21.5 z" x="106" y="237" transform="matrix(1,0,0,1,0,0)" width="147" height="43" style="fill: rgb(177, 178, 181); fill-opacity: 1;">
+            </path>
+          </g>
+        </g>
+        <g id="shape-708206a0-3759-11ed-b5ae-5ddc3b3177fd">
+          <defs>
+            <pattern patternUnits="userSpaceOnUse" x="117.00000015282711" y="234.00000071972613" height="47.99999513328123" width="124.9999998793216" data-loading="false" id="fill-0-e79c1430-3a4a-11ed-81d7-4f5834017f73">
+              <g>
+                <rect width="124.9999998793216" height="47.99999513328123" style="fill: rgb(0, 0, 0); fill-opacity: 1;">
+                </rect>
+              </g>
+            </pattern>
+          </defs>
+          <g transform="matrix(1,0,0,1,0,0)" class="text-container" x="117.00000015282711" y="234.00000071972613" width="124.9999998793216" height="47.99999513328123" rx="0" ry="0">
+            <g id="fills-708206a0-3759-11ed-b5ae-5ddc3b3177fd">
+              <text x="117.00000015282711" y="248.37500071972613" dominant-baseline="text-before-edge" style="text-transform: capitalize; font-family: &quot;Yeon Sung&quot;; letter-spacing: 3.8px; font-style: normal; font-weight: 400; white-space: pre; font-size: 19px; text-decoration: none solid rgb(0, 0, 0); direction: ltr; fill: rgb(0, 0, 0); fill-opacity: 1;">Username</text>
+            </g>
+            <g id="strokes-708206a0-3759-11ed-b5ae-5ddc3b3177fd">
+              <g class="stroke-shape">
+                <text x="117.00000015282711" y="248.37500071972613" dominant-baseline="text-before-edge" style="text-transform: capitalize; font-family: &quot;Yeon Sung&quot;; letter-spacing: 3.8px; font-style: normal; font-weight: 400; white-space: pre; font-size: 19px; text-decoration: none solid rgb(0, 0, 0); direction: ltr; fill: none; stroke-width: 1; stroke: rgb(0, 0, 0); stroke-opacity: 0.14;">Username</text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</g>
