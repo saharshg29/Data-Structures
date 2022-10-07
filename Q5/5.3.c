@@ -9,6 +9,12 @@ struct tNode
     struct tNode *right;
 };
 
+struct Stack {
+    int size;
+    int top;
+    struct Node** array;
+};
+
 struct sNode
 {
     struct tNode *t;
@@ -18,7 +24,7 @@ struct sNode
 void push(struct sNode **top_ref, struct tNode *t);
 struct tNode *pop(struct sNode **top_ref);
 bool isEmpty(struct sNode *top);
-
+//----------------------------------------------
 void inOrder(struct tNode *root)
 {
     struct tNode *current = root;
@@ -43,9 +49,63 @@ void inOrder(struct tNode *root)
             else
                 done = 1;
         }
-    } 
+    }
 }
 
+int preOrder(struct tNode *root) // Preorder Traversing function
+{
+    struct tNode *current = root;
+    struct sNode *s = NULL;
+    int flag = 1;
+    while (flag) // Loop run untill temp is null and stack is empty
+    {
+        if (current)
+        {
+            printf("%d ", current->data);
+            push(&s, current);
+            current = current->left;
+        }
+        else
+        {
+            if (!isEmpty(s))
+            {
+                current = pop(&s);
+                current = current->right;
+            }
+            else
+                flag = 0;
+        }
+    }
+}
+
+void postOrder(struct tNode *root)
+{
+    struct tNode *current = root;
+    struct sNode *s = NULL;
+    bool done = 0;
+
+    while (!done)
+    {
+        if (current != NULL)
+        {
+            push(&s, current);
+            current = current->right;
+        }
+        else
+        {
+            if (!isEmpty(s))
+            {
+                current = pop(&s);
+                printf("%d ", current->right);
+                current = current->left;
+            }
+            else
+                done = 1;
+        }
+    }
+}
+
+//----------------------------------------------
 void push(struct sNode **top_ref, struct tNode *t)
 {
     struct sNode *new_tNode =
@@ -109,7 +169,12 @@ int main()
     root->left->left = newtNode(4);
     root->left->right = newtNode(5);
 
+    printf("InOrder : ");
     inOrder(root);
+    printf("\nPreOrder : ");
+    preOrder(root);
+    printf("\nPostOrder : ");
+    postOrder(root);
 
     getchar();
     return 0;
